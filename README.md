@@ -1,4 +1,4 @@
-# TestData.Paideira
+# TestData.Paideia
 
 Education overlay (learners, schools, roles, assessments) on top of TestData.Base.
 
