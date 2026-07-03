@@ -1,0 +1,21 @@
+# Coarse learning-area taxonomy. The LM may refine into finer strands later.
+reference: LearningAreas
+entries:
+  - key: english
+    title: English / literacy
+  - key: te-reo-maori
+    title: Te reo Māori
+  - key: mathematics
+    title: Mathematics and statistics
+  - key: science
+    title: Science
+  - key: social-sciences
+    title: Social sciences
+  - key: technology
+    title: Technology
+  - key: arts
+    title: The arts
+  - key: health-pe
+    title: Health and physical education
+  - key: languages-other
+    title: Languages (other)

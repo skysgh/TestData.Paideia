@@ -1,0 +1,26 @@
+# Learning profile for the example learner persona.
+# Achievement curve per learning area, recent assessments, and trend.
+persona-ref: example-learner-one.P1
+profile:
+  curve-by-area:
+    english: below
+    mathematics: at
+    science: at
+    social-sciences: at
+    arts: above
+    health-pe: at
+  recent-assessments:
+    - kind-key: running-record
+      learning-area: english
+      taken: 2025-03-12
+      result-band: below
+    - kind-key: pat
+      learning-area: mathematics
+      taken: 2025-03-19
+      result-band: at
+    - kind-key: iep-review
+      taken: 2025-04-02
+      outcome: continuing-support
+  trend:
+    english: improving-slowly
+    mathematics: stable

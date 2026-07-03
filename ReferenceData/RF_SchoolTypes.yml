@@ -1,0 +1,36 @@
+# Synthetic school-type distribution. Indicative ratios; refine in phase 3.
+# Ratios are weights, not probabilities (generator normalises).
+reference: SchoolTypes
+notes: |
+  Aligned to NZ school sector taxonomy as a familiar starting point.
+  Override per-region or per-tenant via overlays.
+entries:
+  - key: primary-full
+    title: Full primary (Years 1-8)
+    ratio: 0.30
+    year-range: [1, 8]
+  - key: primary-contributing
+    title: Contributing primary (Years 1-6)
+    ratio: 0.25
+    year-range: [1, 6]
+  - key: intermediate
+    title: Intermediate (Years 7-8)
+    ratio: 0.08
+    year-range: [7, 8]
+  - key: secondary
+    title: Secondary (Years 9-13)
+    ratio: 0.20
+    year-range: [9, 13]
+  - key: composite
+    title: Composite / area school (Years 1-13)
+    ratio: 0.08
+    year-range: [1, 13]
+  - key: kura-kaupapa
+    title: Kura kaupapa Māori
+    ratio: 0.05
+    year-range: [1, 13]
+    culture-emphasis: [maori]
+  - key: special
+    title: Specialist / special education
+    ratio: 0.04
+    year-range: [1, 13]

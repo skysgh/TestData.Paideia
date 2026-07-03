@@ -1,0 +1,72 @@
+# Top-level establishment taxonomy. RF_SchoolTypes becomes a sub-taxonomy
+# under entries where family == school.
+#
+# Matches the shape of a generic "Registry of Establishments": every place
+# a regulated service is delivered is an establishment, of some type.
+reference: EstablishmentTypes
+notes: |
+  Families group peer types. A consumer asking "show me all early-learning
+  providers" filters by family, not by individual key.
+families:
+  - key: school
+    title: School
+  - key: early-learning
+    title: Early-learning service
+  - key: alternative-education
+    title: Alternative education
+  - key: specialist
+    title: Specialist / special education
+  - key: home-based
+    title: Home-based learning
+  - key: community
+    title: Community / playgroup
+entries:
+  # --- schools (delegated to RF_SchoolTypes for sub-type detail) ---
+  - key: school-primary
+    family: school
+    title: Primary school
+  - key: school-intermediate
+    family: school
+    title: Intermediate school
+  - key: school-secondary
+    family: school
+    title: Secondary school
+  - key: school-composite
+    family: school
+    title: Composite / area school
+  - key: school-kura-kaupapa
+    family: school
+    title: Kura kaupapa Māori
+    culture-emphasis: [maori]
+  - key: school-special
+    family: specialist
+    title: Specialist school
+  # --- early-learning ---
+  - key: el-centre-based
+    family: early-learning
+    title: Centre-based early-learning service
+  - key: el-home-based
+    family: early-learning
+    title: Home-based early-learning service
+  - key: el-kohanga-reo
+    family: early-learning
+    title: Kōhanga reo
+    culture-emphasis: [maori]
+  - key: el-playgroup
+    family: community
+    title: Playgroup
+  - key: el-pasifika-language-group
+    family: early-learning
+    title: Pasifika early-learning group
+    culture-emphasis: [pasifika]
+  # --- alternative education ---
+  - key: ae-provider
+    family: alternative-education
+    title: Alternative-education provider
+  - key: ae-teen-parent-unit
+    family: alternative-education
+    title: Teen-parent unit
+  # --- home-based / correspondence ---
+  - key: home-distance
+    family: home-based
+    title: Distance / correspondence learning

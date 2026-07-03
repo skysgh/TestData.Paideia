@@ -1,0 +1,23 @@
+# Staff assignments for the anchor school.
+# Each entry references a Persona in TestData.Base by {alias}.P{n}.
+# The referenced Personas must exist; loader fails the load if they don't.
+school-slug: kowhai-flat-primary
+assignments:
+  # PLACEHOLDER persona refs - replace once anchor personas land in TestData.Base.
+  - persona-ref: example-persona-one.P1
+    role-key: principal
+    from: 2018-01-28
+  - persona-ref: example-persona-two.P1
+    role-key: deputy-principal
+    from: 2020-01-27
+  - persona-ref: example-persona-three.P1
+    role-key: teacher
+    from: 2022-01-31
+    teaches:
+      year-levels: [3, 4]
+      learning-areas: [english, mathematics, science]
+  - persona-ref: example-persona-four.P1
+    role-key: teacher-aide
+    from: 2023-02-06
+    supports:
+      learning-support: true

@@ -1,0 +1,20 @@
+# Learner profile for the example learner persona.
+# Carries support needs, learning-support flags, IEP markers.
+persona-ref: example-learner-one.P1
+profile:
+  learning-support:
+    has-iep: true
+    iep-summary: Needs additional time and a quiet space for written assessments.
+    accommodations:
+      - extended-time
+      - quiet-space
+      - assistive-reader
+  health-flags:
+    impairment-keys: [mobility-mild]
+    illness-keys: []
+  language:
+    first-language-key: english
+    second-language-keys: [te-reo-maori]
+  pastoral:
+    primary-caregiver-persona-refs:
+      - example-persona-three.P1

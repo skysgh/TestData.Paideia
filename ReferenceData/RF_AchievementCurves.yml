@@ -1,0 +1,23 @@
+# Typical achievement-trajectory archetypes used to colour LearningProfiles.
+# These are statistical shapes, not labels for individual learners.
+reference: AchievementCurves
+notes: |
+  Ratios approximate a healthy normal-ish distribution with deliberate
+  representation of accelerated and well-below-expectation learners so the
+  UI must render both ends.
+entries:
+  - key: well-below
+    title: Well below expectation
+    ratio: 0.06
+  - key: below
+    title: Below expectation
+    ratio: 0.18
+  - key: at
+    title: At expectation
+    ratio: 0.46
+  - key: above
+    title: Above expectation
+    ratio: 0.22
+  - key: well-above
+    title: Well above expectation
+    ratio: 0.08

@@ -1,0 +1,33 @@
+# Assessment kinds the system must render. Generator picks a per-school mix.
+reference: AssessmentKinds
+entries:
+  - key: observation
+    title: Teacher observation
+    formal: false
+  - key: running-record
+    title: Running record (reading)
+    formal: true
+    learning-area: english
+  - key: e-asttle
+    title: e-asTTle
+    formal: true
+    learning-areas: [english, mathematics]
+  - key: pat
+    title: Progressive Achievement Test (PAT)
+    formal: true
+    learning-areas: [english, mathematics]
+  - key: ncea-internal
+    title: NCEA internal assessment
+    formal: true
+    year-range: [11, 13]
+  - key: ncea-external
+    title: NCEA external assessment
+    formal: true
+    year-range: [11, 13]
+  - key: portfolio
+    title: Portfolio review
+    formal: false
+  - key: iep-review
+    title: Individual Education Plan review
+    formal: true
+    cohort: learning-support

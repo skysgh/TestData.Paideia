@@ -1,0 +1,16 @@
+# Anchor school - hand-authored exemplar. Generator will produce ~42 of these.
+school:
+  slug: kowhai-flat-primary
+  title: Kōwhai Flat Primary School
+  short-title: Kōwhai Flat
+  type-key: primary-full
+  year-range: [1, 8]
+  region-key: nz-aotearoa
+  locality: rural
+  roll-target: 180
+  established: 1962
+  culture-emphasis: [anglo, maori]
+  motto: Kia kaha, kia māia, kia manawanui
+  notes: |
+    Synthetic anchor used by tests. The slug is the canonical key; the GUID
+    is derived deterministically by the loader from "school::{slug}".

@@ -1,0 +1,41 @@
+# Roles a Persona may hold within a School.
+# A Persona may hold multiple roles (e.g. teacher AND parent-volunteer).
+reference: SchoolRoles
+entries:
+  - key: principal
+    title: Principal
+    category: leadership
+    head-count-per-school: 1
+  - key: deputy-principal
+    title: Deputy / Associate Principal
+    category: leadership
+    head-count-per-school: [0, 2]
+  - key: teacher
+    title: Classroom teacher
+    category: teaching
+  - key: teacher-aide
+    title: Teacher aide / learning assistant
+    category: support
+  - key: senco
+    title: SENCO (special-needs coordinator)
+    category: support
+    head-count-per-school: [0, 1]
+  - key: counsellor
+    title: Guidance counsellor
+    category: support
+    head-count-per-school: [0, 2]
+  - key: admin
+    title: Administrative staff
+    category: operations
+  - key: caretaker
+    title: Caretaker / property
+    category: operations
+  - key: board-member
+    title: Board member
+    category: governance
+  - key: parent-volunteer
+    title: Parent volunteer
+    category: community
+  - key: student
+    title: Enrolled learner
+    category: learner

@@ -1,0 +1,10 @@
+# Enrolment of a learner Persona at the anchor school.
+# Both school-slug and persona-ref must resolve at load time.
+enrolment:
+  school-slug: kowhai-flat-primary
+  persona-ref: example-learner-one.P1
+  year-level: 4
+  from: 2024-01-29
+  to: null
+  homeroom: room-7
+  notes: Hand-authored anchor. Generator will replace with 42-per-school batches.
